@@ -1,5 +1,10 @@
 <?php
 use App\AbstractApplication;
+use Human\Human;
+use Human\Bodyguard;
+use Human\Commissionner;
+use Human\VicePresident;
+use Human\President;
 
 /**
  * This class is the main application. You will overwrite the "run" method to implement your code
@@ -8,6 +13,7 @@ use App\AbstractApplication;
  */
 class Application extends AbstractApplication
 {
+
     /**
      * Run
      *
@@ -18,6 +24,11 @@ class Application extends AbstractApplication
     protected function run() : ?string
     {
         return 'Please, insert your code inside the src/Application::run method';
+
+
+        echo '<pre>';
+        print_r(Human::fromArray());
+        echo '</pre>';
     }
 }
 
