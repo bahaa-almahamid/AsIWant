@@ -12,7 +12,7 @@ class Bodyguard extends Human
     }
 
 
-    public function setProtect(string $protect)
+    public function setProtect(Commissionner $protect)
     {
         $this->protect = $protect;
         return $this;

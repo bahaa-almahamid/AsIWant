@@ -1,8 +1,11 @@
 <?php
 
-private $day;
-private $month;
-private $year;
+
+class Date { 
+
+public $day;
+public $month;
+public $year;
 
 
 
@@ -30,6 +33,6 @@ public function setYear($year){
   $this->year = $year;
   return $this;
 }
-
+}
 
  ?>

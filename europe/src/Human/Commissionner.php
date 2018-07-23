@@ -30,7 +30,7 @@ class Commissionner extends Human
     }
 
 
-    public static function fromArray(array $definition)
+    /* public static function fromArray(array $definition)
     {
         $logger2 = \Logger::getInstance();
         $logger2->log('2');
@@ -48,7 +48,7 @@ class Commissionner extends Human
             //->setHair(Hair::fromArray($definition['hair'] ?? []));
         
         return $bodyguard;
-    }
+    } */
 
 }
 
